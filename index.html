@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to NextGenCyberAI</title>
+    <title>Securing AI | NextGenCyberAI</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -24,83 +24,90 @@
             margin: 0;
             font-size: 2.5em;
         }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-            padding: 20px;
+        nav {
+            margin-top: 10px;
         }
-        section {
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
             padding: 20px;
-            margin: 20px;
-            width: 90%;
-            max-width: 800px;
+            margin: 20px auto;
+            max-width: 1200px;
             background: white;
             border-radius: 12px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s;
         }
-        section:hover {
-            transform: translateY(-5px);
+        .section {
+            margin-bottom: 30px;
         }
-        h2 {
+        .section h2 {
             color: #0073e6;
-            font-size: 1.8em;
-            margin-bottom: 10px;
-        }
-        p {
-            line-height: 1.6;
-            font-size: 1.1em;
-        }
-        a {
-            text-decoration: none;
-            color: #0073e6;
-            font-weight: 500;
-            display: block;
-            margin-top: 10px;
-            font-size: 1.1em;
-            transition: color 0.2s;
-        }
-        a:hover {
-            color: #005bb5;
+            margin-top: 0;
         }
         footer {
             text-align: center;
             padding: 20px;
             background: #0073e6;
             color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+        }
+        a {
+            text-decoration: none;
+            color: #0073e6;
+            font-weight: 500;
+            font-size: 1.1em;
+        }
+        a:hover {
+            color: #005bb5;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to NextGenCyberAI</h1>
+        <h1>Securing Advancing AI Trends</h1>
+        <nav>
+            <a href="#introduction">Introduction</a>
+            <a href="#trends">AI Trends</a>
+            <a href="#risks">Risks</a>
+            <a href="#skills">Skills</a>
+            <a href="#conclusion">Conclusion</a>
+        </nav>
     </header>
-    
-    <div class="container">
-        <section id="cybersecurity">
-            <h2><a href="cybersecurity.html">Cybersecurity</a></h2>
-            <p>Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are typically aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.</p>
-        </section>
 
-        <section id="artificial-intelligence">
-            <h2><a href="artificial-intelligence.html">Artificial Intelligence</a></h2>
-            <p>Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. AI has applications across various domains, including data analysis, automation, and decision-making processes.</p>
-        </section>
+    <div class="content">
+        <div class="section" id="introduction">
+            <h2>Introduction</h2>
+            <p>Artificial Intelligence (AI) is transforming industries but introduces significant cybersecurity challenges. This webpage explores how to bridge the gap between AI advancements and security practices to protect systems and sensitive data.</p>
+        </div>
 
-        <section id="intersection">
-            <h2><a href="intersection.html">Intersection of Cyber and AI</a></h2>
-            <p>The intersection of cybersecurity and artificial intelligence involves the use of AI techniques to enhance security measures. AI can help in identifying threats, analyzing vulnerabilities, and responding to attacks more effectively.</p>
-        </section>
+        <div class="section" id="trends">
+            <h2>Securing Advancing AI Trends</h2>
+            <p><strong>Current Technology Landscape:</strong> AI is reshaping workflows in industries like healthcare, finance, retail, and manufacturing. While it enhances efficiency, it also increases vulnerabilities like data poisoning and API exploits.</p>
+            <p><strong>Attack Surface:</strong> AI systems—models, apps, and cloud infrastructures—are susceptible to data breaches, adversarial attacks, and cloud misconfigurations.</p>
+            <p><strong>Adversarial Machine Learning (AML):</strong> Techniques like white-box and black-box attacks exploit weaknesses in AI models. Risks include sensitive information leaks and disruptions.</p>
+        </div>
 
-        <section id="revamping">
-            <h2><a href="revamping.html">Revamping Security Teams & Reporting</a></h2>
-            <p>Revamping security teams involves integrating AI tools to enhance the capabilities of cybersecurity professionals. It focuses on upskilling teams to leverage AI for threat detection, incident response, and efficient reporting practices.</p>
-        </section>
+        <div class="section" id="risks">
+            <h2>Risks in AI Development</h2>
+            <p>AI acts as a double-edged sword. While it offers efficiency and proactive threat detection, it also introduces threats like AI-powered malware, misinformation, and bias. Mitigation measures include implementing explainable AI, fail-safe mechanisms, and continuous monitoring.</p>
+        </div>
+
+        <div class="section" id="skills">
+            <h2>Job Dynamics and Future Skills</h2>
+            <p>As AI evolves, the workforce must adapt by acquiring skills in AI basics, adversarial defense, and cybersecurity. Combining human expertise with AI capabilities ensures robust security frameworks for real-time threat detection and response.</p>
+        </div>
+
+        <div class="section" id="conclusion">
+            <h2>Conclusion</h2>
+            <p>Securing AI systems requires a collaborative approach that balances AI’s scalability with ethical and secure practices. By addressing gaps in security expertise and insider threats, we can build a safer AI-driven future.</p>
+            <a href="#">Download Full Study</a>
+        </div>
     </div>
 
     <footer>
